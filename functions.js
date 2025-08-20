@@ -43,3 +43,13 @@ morningGreetings()
 eveningGreetings()
 greetings()
 eveningGreetings();
+
+//Passing values to the function via parameters
+//Print the greetings with the name of the person given via parameter
+function greetingsHello(name, town, age){
+    console.log("Hello "+name);
+    console.log("Welcome to "+town);
+    console.log("Your age is "+age);
+}
+
+greetingsHello("Mukilan","Sri Lanka","20");
