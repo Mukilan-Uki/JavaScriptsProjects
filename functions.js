@@ -16,3 +16,30 @@ function printName(){
 }
 
 printName();
+
+var a = 10;
+var b = 30;
+
+function sum(){
+    console.log(a+b);
+}
+
+sum();
+
+function morningGreetings(){
+    console.log("Good Morning");
+}
+
+function eveningGreetings(){
+    console.log("Good Evening");
+}
+
+function greetings(){
+    morningGreetings();
+    eveningGreetings();
+}
+
+morningGreetings()
+eveningGreetings()
+greetings()
+eveningGreetings();
