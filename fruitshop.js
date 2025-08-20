@@ -17,3 +17,11 @@ var cust3 = (5*applePrice) + (0*bananaPrice) + (2*orangePrice);
 console.log("Customer 1 Total : $"+cust1);
 console.log("Customer 1 Total : $"+cust2);
 console.log("Customer 1 Total : $"+cust3);
+
+console.log(typeof("Orange"));
+console.log(typeof(100));
+console.log(typeof(true));
+var num;
+console.log(typeof(num));
+var num1=12;
+console.log(typeof(num1));
