@@ -52,4 +52,4 @@ function greetingsHello(name, town, age){
     console.log("Your age is "+age);
 }
 
-greetingsHello("Mukilan","Sri Lanka","20");
+greetingsHello("Mukilan","Sri Lanka",20);
