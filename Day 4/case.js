@@ -25,3 +25,26 @@ switch(day){
     default:
         console.log("Invalid day")
 }
+
+//If condision Different
+function printday(number){
+    if(number==1){
+        return"Monday";
+    }
+    else if(number==2){
+        return "Tuesday";
+    }
+    else if(number==3){
+        return "Wednesday";
+    }
+    if(number==4){
+        return"Thursday";
+    }
+    else if(number==5){
+        return "Friday";
+    }
+    else
+        return "Weekend";
+}
+var number=2;
+console.log(printday(number));
