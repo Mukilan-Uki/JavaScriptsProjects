@@ -47,3 +47,28 @@ function sumNumber(){
     console.log(sum);
 }
 sumNumber();
+
+//finding the same numbers
+let array1=[];
+function findSameNumber(){
+    let length=Math.floor(Math.random()*10+2);
+    let arr=[];
+    for(let i=0; i<length; i++){
+        arr[i]=Math.floor(Math.random()*10+11);
+    }
+    return arr;
+}
+array1=findSameNumber();
+function checkUniqueNum(){
+    let uniqueNumbersArray = arr[0];
+    for(let i=0; i<arr.length; i++){
+        for(j=0; j<uniqueNumbersArray.length; j++){
+            if(uniqueNumbersArray!=arr[i]){
+                uniqueNumbersArray.push(arr[i])
+            }
+        }
+    }
+    console.log(uniqueNumbersArray);
+}
+array1=findSameNumber;
+checkUniqueNum(findSameNumber());
