@@ -49,10 +49,10 @@ function sumNumber(){
 sumNumber();
 
 //finding the same numbers
-let array1=[];
+var array1=[];
 function findSameNumber(){
     let length=Math.floor(Math.random()*10+2);
-    let arr=[];
+    var arr=[];
     for(let i=0; i<length; i++){
         arr[i]=Math.floor(Math.random()*10+11);
     }

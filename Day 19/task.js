@@ -1,6 +1,3 @@
-let row=4;
-let col=3;
-let matrix=generate2DArray(row,col)
 function generate2DArray(row,col){
     let mat=Array.from({length:row}, ()=>new Array(col).fill(0));
     for(let i=0; i<row; i++){
@@ -11,14 +8,6 @@ function generate2DArray(row,col){
     return mat;
 }
 
-function printArray(mat){
-    for(let i=0; i<mat.length; i++){
-        console.log(mat[i]);
-    }
-}
-printArray(matrix);
-
-
 function reverse(mat){
     let revmat=Array.from({length:matrix[0].length},()=>new Array(matrix.length).fill(0))
     for(let i=0; i<mat.length; i++){
@@ -28,10 +17,17 @@ function reverse(mat){
     }
     return revmat;
 }
-console.log(reverse(matrix))
 
+function printArray(mat){
+    for(let i=0; i<mat.length; i++){
+        console.log(mat[i]);
+    }
+}
+
+let row=4;
+let col=3;
+let matrix=generate2DArray(row,col);
 let revmatrix=reverse(matrix);
 
+printArray(matrix);
 printArray(revmatrix);
-
-
