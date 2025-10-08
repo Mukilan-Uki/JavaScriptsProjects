@@ -12,7 +12,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/IntroOfTypeScript.ts",
+            "program": "${workspaceFolder}/SRC/index.ts",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
