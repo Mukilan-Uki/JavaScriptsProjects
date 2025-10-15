@@ -8,7 +8,7 @@
 let course=["ICT","BIO","Maths"];
 let batch=["Level-1","Level-2","Level-3","Level-4"];
 let students=[[29,60,22],[31,54,25],[20,57,16],[3,18,9]];
-
+console.log(students)
 
 //a) The total number of students in each course.
 function TotalNumOfStuInCourse(mat){
@@ -20,9 +20,7 @@ function TotalNumOfStuInCourse(mat){
         console.log("Total number of students in "+course[i]+" is "+sum);
     }
 }
-TotalNumOfStuInCourse(students)
 
-console.log("\n")
 
 //b) The total number of students in reach batch.
 
@@ -35,9 +33,7 @@ function TotalNumOfStuInBatch(mat){
         console.log("Total number of students in "+batch[i]+" is "+sum);
     }
 }
-TotalNumOfStuInBatch(students)
 
-console.log("\n")
 
 //c) The number of students in each level with their respective course.
 
@@ -50,9 +46,7 @@ function TheNumOfStuInEachLevelWithEachCourse(mat){
         }
     }
 }
-TheNumOfStuInEachLevelWithEachCourse(students)
 
-console.log("\n")
 
 //d) The total number of students in all the levels and all the courses
 
@@ -65,4 +59,3 @@ function TotalNumOfStudents(mat){
     }
     console.log("Total number of students is "+sum);
 }
-TotalNumOfStudents(students);
