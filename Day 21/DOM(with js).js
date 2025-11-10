@@ -2,7 +2,7 @@ function main(){
     const x=document.getElementById("main");
     const y=x.getElementsByTagName("p");
     document.getElementById("demo").innerHTML=
-    'This is a called paragraph (index 0) is '+y[0].innerHTML;
+    'This is a called paragarph (index 0) is '+y[0].innerHTML;
 }
 
 function main1(){
